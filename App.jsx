@@ -6,8 +6,25 @@ export default defineConfig({
 })
 @font-face {
   font-family: 'Acid Goth';
-  src: url('/fonts/AcidGoth.woff2') format('woff2'),
-       url('/fonts/AcidGoth.woff')  format('woff'),
-       url('/fonts/AcidGoth.ttf')   format('truetype');
-  src: url('/AcidGoth.woff2') format('woff2'),
-     url('/AcidGoth.ttf')   format('truetype');
+  src: url('/AcidGoth.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Acid Goth';
+  src: url('/AcidGoth-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Acid Goth';
+  src: url('/AcidGoth-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Acid Goth';
+  src: url('/AcidGoth-BoldOutline.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
